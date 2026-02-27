@@ -35,6 +35,13 @@ def _inject_theme() -> None:
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;600;700&display=swap');
 
+        :root {
+            color-scheme: light;
+        }
+        html, body, [class*="css"] {
+            color: #102a43;
+        }
+
         .stApp {
             background:
               radial-gradient(1200px 500px at 10% -20%, rgba(0, 147, 121, 0.15), transparent 60%),
@@ -126,6 +133,13 @@ def _inject_theme() -> None:
         [data-testid="stMainBlockContainer"] div[data-baseweb="tag"] span {
             color: #143556 !important;
         }
+        [data-testid="stMainBlockContainer"] .stMarkdown,
+        [data-testid="stMainBlockContainer"] .stMarkdown p,
+        [data-testid="stMainBlockContainer"] .stMarkdown span,
+        [data-testid="stMainBlockContainer"] .stCaptionContainer,
+        [data-testid="stMainBlockContainer"] .stCaptionContainer span {
+            color: #102a43 !important;
+        }
         div[data-baseweb="tab-list"] button {
             color: #17324d !important;
             background: #eaf1f7 !important;
@@ -152,6 +166,22 @@ def _inject_theme() -> None:
         [data-testid="stDataEditor"] *,
         [data-testid="stTable"] * {
             color: #102a43 !important;
+        }
+        [data-testid="stDataFrame"] th,
+        [data-testid="stDataEditor"] th,
+        [data-testid="stDataFrame"] td,
+        [data-testid="stDataEditor"] td {
+            background: #ffffff !important;
+            color: #102a43 !important;
+        }
+        .stButton > button,
+        .stDownloadButton > button,
+        .stForm button {
+            color: #102a43 !important;
+            border: 1px solid #c9d9ea !important;
+        }
+        .stDownloadButton > button {
+            background: #eef5ff !important;
         }
         [data-testid="stExpander"] summary,
         [data-testid="stExpander"] p,
