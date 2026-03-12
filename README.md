@@ -22,6 +22,8 @@ Streamlit-based project that parses resumes, compares them with a Job Descriptio
 - Role Compare tab (score same candidate pool across multiple saved jobs)
 - Admin panel for user management and global saved-job control
 - Export both full results and filtered view CSV
+  <img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/7ed39431-e51b-4eb5-9a39-b0a4c392a326" />
+
 
 ## Project Structure
 
