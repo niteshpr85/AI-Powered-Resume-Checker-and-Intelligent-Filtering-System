@@ -1,4 +1,4 @@
-# AI-Powered Resume Checker and Intelligent Filtering System
+ # AI-Powered Resume Checker and Intelligent Filtering System
 
 Streamlit-based project that parses resumes, compares them with a Job Description (JD), computes ATS scores, filters candidates, and explains selection/rejection with actionable insights.
 
